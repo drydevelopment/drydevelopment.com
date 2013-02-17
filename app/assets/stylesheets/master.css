@@ -202,7 +202,7 @@ BODY
 	background: #FFF; 
 	padding: 16px 16px; 
 	margin: 30px 0 16px 0; 
-	width: 523px; 
+	width: 527px; 
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 }
@@ -252,7 +252,7 @@ h3 { color: #CCC; }
 }
 #body div.column.first {
 	width: 270px;
-	padding: 0 16px 0 0;
+	padding: 0 20px 0 0;
 }
 
 /*
@@ -710,6 +710,49 @@ ADMIN
 }
 #portfolios.edit #body div.secondary p.delete a { color: #D03E2D; }
 #portfolios.edit #body div.secondary div.add-image h3 { color: #337EA5; }
+
+/*
+++++++++++++++++++++++++
+WEDDING
+++++++++++++++++++++++++
+*/ 
+body.wedding div.primary p { color: #333; padding: 0 16px 8px 16px; background: #DDD; margin-bottom: 16px; }
+body.wedding div.secondary img {
+	border: 10px solid #222;
+	margin: 6px 0 0 0;
+}
+body.wedding h2 {
+	color: #333;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+}
+body.wedding p {
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+}
+
+body.wedding div.primary p.pavilion { padding: 16px 20px; }
+body.wedding div.primary p.pavilion img { border: 1px solid #CCC; }
+#body div.secondary div.module.rsvp { margin-top: 16px; }
+#body div.secondary div.module.rsvp a {
+  background: Green;
+  display: block;
+  width: 198px;
+  padding: 10px;
+  color: #FFF;
+  text-align: center;
+  border: 1px solid #000;
+}
+#body div.secondary div.module.rsvp a:hover {
+  background: #009600;
+  text-decoration: none;
+}
+#body div.secondary div.module.accommodations { padding-top: 20px; }
+
 /*
 ++++++++++++++++++++++++
 CONTACT PAGE
