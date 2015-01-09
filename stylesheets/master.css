@@ -1,0 +1,18 @@
+body {
+  background-color: #000;
+  /*background: #000 url("../images/radial-background.jpg") no-repeat center top;*/
+  background: #000 url("../images/windy-hill.jpg") no-repeat center top;
+}
+
+#main-navbar {
+  background-color: #111;
+  border-color: #000;
+}
+
+#main-content {
+  margin-top: 650px;
+}
+
+.avatar {
+  border: 6px solid #EEE;
+}
